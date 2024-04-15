@@ -41,8 +41,14 @@ h1 {
 }
 
 .btn {
+    background-color: transparent;
+    color: rgb(50, 50, 50);
+    border: 3px solid rgb(50, 50, 50);
+    border-radius: 8px;
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
     cursor: pointer;
 }
