@@ -1,14 +1,14 @@
 //Array of hexadecimal values
-const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"]
+const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
 
 //Declaration of color and button reference
-let color = document.querySelector(".color")
+let color = document.querySelector(".color");
 let button = document.getElementById("btn");
 
 //Declaration of random number generator function
 function generateRandomNumber() {
     return Math.floor(Math.random() * hex.length);
-}
+};
 
 
 function createRandomHex() {
@@ -18,4 +18,7 @@ function createRandomHex() {
     }
     color.textContent = hexColor;
     document.body.style.backgroundColor = hexColor;
-}
+};
+
+//Connection of function with button
+button.addEventListener("click", createRandomHex);
