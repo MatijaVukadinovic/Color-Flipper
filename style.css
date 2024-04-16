@@ -45,8 +45,8 @@ span {
 }
 
 .btn {
-    background-color: transparent;
-    color: rgb(50, 50, 50);
+    background-color: rgb(50, 50, 50);
+    color: white;
     border: 3px solid rgb(50, 50, 50);
     border-radius: 8px;
     margin-top: 20px;
