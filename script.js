@@ -10,7 +10,7 @@ function generateRandomNumber() {
     return Math.floor(Math.random() * hex.length);
 };
 
-
+//Declaration of random hex creation function
 function createRandomHex() {
     let hexColor = "#";
     for (let i = 0; i < 6; i++) {
