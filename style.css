@@ -53,6 +53,6 @@ span {
     padding: 10px 20px;
     font-size: 18px;
     font-weight: bold;
-    text-transform: capitalize;
+    text-transform: uppercase;
     cursor: pointer;
 }
