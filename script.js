@@ -16,4 +16,6 @@ function createRandomHex() {
     for (let i = 0; i < 6; i++) {
         hexColor += hex[generateRandomNumber()];
     }
+    color.textContent = hexColor;
+    document.body.style.backgroundColor = hexColor;
 }
