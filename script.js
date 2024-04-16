@@ -9,3 +9,11 @@ let button = document.getElementById("btn");
 function generateRandomNumber() {
     return Math.floor(Math.random() * hex.length);
 }
+
+
+function createRandomHex() {
+    let hexColor = "#";
+    for (let i = 0; i < 6; i++) {
+        hexColor += hex[generateRandomNumber()];
+    }
+}
